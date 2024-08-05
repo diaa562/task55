@@ -1,0 +1,138 @@
+.container-fluid a{
+    text-decoration: none;
+    color: black;
+    transition-duration: 0.7s;
+    display: flex;
+    align-items: center;
+}
+.container-fluid a:hover{
+background-color: green;
+color: white;
+padding: 7px;
+}
+.carousel-item h1{
+text-align: center;
+}
+.navbar-brand{
+    font-size: 30px;
+    animation-name: logo;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.card-body a{
+display: flex;
+justify-content: center;
+
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+#dd{
+    display: flex;
+    margin-top: 10px;
+    animation-name: dd;
+    
+}
+@keyframes logo{
+    0%{
+        color: blue;
+    }
+    25%{
+        color: darkgreen;
+    }
+    50%{
+        color:darkmagenta;
+    }
+    75%{
+        color: orangered;
+    }
+    95%{
+        color: gold;
+    }
+}
+.card h5{
+text-align: center;
+}
+.demo img{
+    border-radius: 50%;
+   border: 1px solid white;
+}
+.demo{
+    display: flex;
+    justify-content: space-between;
+}
+.h1{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.anas{
+    margin-right: 4%;
+}
+#hossam{
+    margin-right: 30px;
+}
+.row h1{
+    text-align: center;
+}
+.card h4{
+    text-align: center;
+
+}
+footer{
+    background-color:black;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    
+}
+.navbar-brand{
+    display: flex;
+    align-items: center;
+}
+.ri-facebook-circle-fill{
+    color: blue;
+}
+.ri-instagram-line{
+    color:mediumvioletred;
+}
+.ri-twitter-line{
+    color: dodgerblue;
+}
+.ri-whatsapp-line{
+    color: green;
+}
+#mn{
+margin-top: 6px;
+}
+@media screen and (max-width:600px) {
+    .demo{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .h1{
+        flex-direction: column;
+      
+        
+    }
+    .ma{
+      display: inline-block;
+      margin-top: -125%;
+    }
+    .anas{
+        margin-top: -50%;
+    }
+    .ab{
+        margin-bottom: 50%;
+    }
+    #hossam{
+margin-bottom: 50px;
+    }
+}
